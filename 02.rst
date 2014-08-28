@@ -8,7 +8,7 @@ Why did we invent programming languages? This is what we are going to explore th
 2.1 The history of programming languages
 ========================================
 
-In the first chapter, I explained how we can deepen our understanding of new innovations by comparing them to those of the past, but there is another benefit to researching previous technologies. New things are created from the knowledge of previously existing things, and if we go far enough back in time, at one point even the things we take for granted today were yet to be discovered. This makes it extremely beneficial for people learning today to consider the way people used to look at things. Let's take a closer look at the history of programming.
+In the first chapter, I explained how we can deepen our understanding of new innovations by comparing them to those of the past, but there is another benefit from researching previous technologies. New things are created from the knowledge of previously existing things, and if we go far enough back in time, at one point even the things we take for granted today were yet to be discovered. This makes it extremely beneficial for people learning today to consider the way people used to look at things. Let's take a closer look at the history of programming.
 So why do programming languages exist in the first place? For what purpose were they created? What are the common features of the languages of today and the languages of the past? Programming languages were invented to make things easier for people. To demonstrate this I would like to look at how programming languages came about by looking at two language designers. First, let's unravel the mystery of how programming languages came into existence.
 
 Plugging in
@@ -56,7 +56,7 @@ The name FORTRAN comes from "Formula Translating System". It is now considered c
 
 QUOTE
 
-In reality, the machine code output by the early FORTRAN compiler was not as efficient as having a seasoned programmer directly write it. However, the significant decrease in the amount of code, coupled with the fact that it had become much easier to read attracted a large number of users. In 1979 the designer of FORTAN, John Backus is quoted as having said: "much of my work has come from being lazy" and "I didn't like writing programs l started work on a programming system to make it easier to write programs".
+In reality, the machine code output by the early FORTRAN compiler was not as efficient as having a seasoned programmer directly write it. However, the significant decrease in the amount of code, coupled with the fact that it had become much easier to read attracted a large number of users. In 1979 the designer of FORTAN, John Backus is quoted as having said: "much of my work has come from being lazy" and "I didn't like writing programs, so I started to work on a programming system to make it easier to write programs".
 
 2.2 Why programming languages were created
 ==========================================
@@ -101,7 +101,7 @@ Note 8:
 More precisely, we should say “was until the 5th release in 1998”. In 1998 it was 50 pages long, but grew to 187 as the minimalistic approach was scrapped. Even then, it is still compact when compared to C++, which has over 1300 pages.
 
 
-In addition to languages that make it easy for a single person to implement complex algorithms into programs, there are others too. Some of these focus on making it easier for large groups to co-operatively create something. Others make it easy to implement experimental and throwaway code. The "right" design depends entirely upon the aims of the person using the language and the reason there are many different kinds of designs in the first place is simply because people have all sorts of different goals. It is not helpful to compare a language designed for maximum execution speed like C++to a language designed to make code easy to read like Python only to conclude that C++ is hard to read and Python is slow.
+In addition to languages that make it easy for a single person to implement complex algorithms into programs, there are others too. Some of these focus on making it easier for large groups to co-operatively create something. Others make it easy to implement experimental and throwaway code. The "right" design depends entirely upon the aims of the person using the language and the reason there are many different kinds of designs in the first place is simply because people have all sorts of different goals. It is not helpful to compare a language designed for maximum execution speed like C++ to a language designed to make code easy to read like Python only to conclude that C++ is hard to read and Python is slow.
 
 2.3 Summary
 ===========
