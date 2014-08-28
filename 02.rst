@@ -1,0 +1,112 @@
+==============================================
+ Chapter 2: Overview of programming languages
+==============================================
+
+Why were programming languages created?
+Why did we invent programming languages? This is what we are going to explore throughout the course of this chapter, and we will do this by following the history of programming languages.
+
+2.1 The history of programming languages
+========================================
+
+In the first chapter, I explained how we can deepen our understanding of new innovations by comparing them to those of the past, but there is another benefit to researching previous technologies. New things are created from the knowledge of previously existing things, and if we go far enough back in time, at one point even the things we take for granted today were yet to be discovered. This makes it extremely beneficial for people learning today to consider the way people used to look at things. Let's take a closer look at the history of programming.
+So why do programming languages exist in the first place? For what purpose were they created? What are the common features of the languages of today and the languages of the past? Programming languages were invented to make things easier for people. To demonstrate this I would like to look at how programming languages came about by looking at two language designers. First, let's unravel the mystery of how programming languages came into existence.
+
+Plugging in
+-----------
+
+What was programming like half a century ago?
+
+In 1946, ENIAC (Electronic Numerical Integrator and Computer), a computer capable of the so-called "programming" of today was invented. It was capable of changing "what is calculated". However, it's methods were far removed from the programming we know today.
+ENIAC was a huge, 24 meter wide computer that used 17,468 vacuum tubes - to get an idea of that size, imagine a machine with vacuum tubes lined up across the entire width of an Olympic swimming pool.
+Programming on the machine was done by connecting the various terminals of the computer using cables (image 2.1) and it was hard work rearranging all of them every time you wanted to change the program. Surely there must be a simpler way of doing things?
+Image 2.1 Programming on ENIAC
+
+
+XXIMAGEXX
+
+
+
+*US Army Research Laboratory
+
+
+TITLE
+-----
+
+1949 saw the invention of EDSAC (Electronic Delay Storage Automatic Calculator). EDSAC was a computer that read data expressed as a series of holes in paper tape (image 2.2) and programs themselves were also entered as this data. Instead of physically changing the positions of cables, the program could be changed by reading the data entered into the paper tape, making the whole process much easier.
+
+Image 2.2 Paper tape
+
+XXIMAGEXX
+※"Punched tape・Wikipedia: The Free Encyclopaedia Wikimedia Foundation, lnc 08/22/2012
+Even though things had become simpler, it was still in no way easy for people themselves to either read or write programs and this was still at best a language for machines (computers) to read otherwise known as a "machine language". The paper tape used for data entry had a maximum of 5 holes per row for expression of data as well as a row of small holes for paper feeding, all programs had to be written using just these 5 holes.
+
+The emergence of FORTRAN
+------------------------
+
+In 1954, a language resembling those we use today
+
+
+Note 1:
+Readers who would like to see EDSAC programs and their execution processes can use the browser based EDSAC simulator created by the author at the following address:
+http://nhiro.org/learn_language/repos/EDSAC-on-browser/
+
+
+was finally conceived, and that language was FORTRAN.
+The name FORTRAN comes from "Formula Translating System". It is now considered common knowledge that "X multiplied by Y add Z" is rendered as "X * Y + Z" in programming, but FORTRAN was the first language to express it in this way. As it's name suggests, translating mathematical formulas to machine code is one FORTRAN's main characteristics.
+
+QUOTE
+
+In reality, the machine code output by the early FORTRAN compiler was not as efficient as having a seasoned programmer directly write it. However, the significant decrease in the amount of code, coupled with the fact that it had become much easier to read attracted a large number of users. In 1979 the designer of FORTAN, John Backus is quoted as having said: "much of my work has come from being lazy" and "I didn't like writing programs l started work on a programming system to make it easier to write programs".
+
+2.2 Why programming languages were created
+==========================================
+
+Programs are written to make things easier, but making things easier and cutting corners are two entirely separate things. Cutting corners only to have to spend time fixing it up later cannot be considered "making something easier" at all.
+
+Note 2: This does not mean that FORTRAN was the first programming language. It is very difficult to try and ascertain what the first programming language was, but there were certainly other languages that preceded FORTRAN.
+
+Note 3: Programming Languages – Concepts and Constructs, Ravi Sethi, Pearson Education Ltd. 2002
+
+Note 4: “Much of my work has come from being lazy” http://www.msnbc.msn.com/id/17704662/
+
+Note 5:  "I didn't like writing programs l started work on a programming system to make it easier to write programs"  http://www.msnbc.msn.com/id/17704662/
+
+
+
+
+
+
+Laziness - One of the three great virtues of programming
+--------------------------------------------------------
+
+Have you heard of the "3 great virtues of programming"?  In his book "Programming Perl: There's More Than One Way To Do It", Larry Wall, the designer of the language Perl proposed that laziness, impatience and hubris are the three qualities that a great programmer should possess. These are known as the "3 virtues of programming", and here, we are going to look at the most important of these; laziness.
+
+The word laziness can be interpreted in many ways including; idleness, negligence and sloth but what we are referring to here is something along the lines of "choosing the path of least resistance". It is not simply looking for immediate gratification, rather considering the best way to plan for the future using minimum effort by choosing the most productive method available. Perl was invented to make creating reports easier and the name comes from an abbreviation of "practical extraction and report language".
+
+Note 6: “Programming Perl, 3rd Edition”, Larry Wall, Tom Christiansen, Jon Orwant published by O’Reily Media
+
+Note 7:  The second of the great virtues, impatience is the programmer’s inherent need to be quick, and the third, hubris refers to being too proud to leave bugs unsolved in programs.
+
+"Easiness" differs depending on the language
+--------------------------------------------
+
+We mentioned that the purpose of programming languages is to make things easier, so why then, are there so many different languages in use today? This is because "easier" is subjective depending on what person you ask. Let's put ourselves in the shoes of a language designer to try and get a better idea of what they want to achieve.
+What is it we want to make easier to do?
+What does the language set out to make easier? Is writing code quickly easy in the language? Is the language easy to pick up? Is it a language where code written by others can be easily read? For example C++ is a language that focuses on the speed of the program, so the specifications of the language are more complicated in order to make sure the same code can be entered quicker than an equivalent code in C. On the other hand, Scheme is a language that was designed to be as easy as possible to pick up and has only the bare minimum of specifications. In fact, it is so compact, that the entire manual of specifications is just 50 pages long. However, the syntax, which uses brackets heavily, is not for everyone. Python is a language designed so that code written by others is as easy as possible to read. It is closer to C than Scheme, using control syntax familiar to a great number of people and it even uses forced indentation at syntax level. On the flipside though, programs are not quick compared to C++ and the specifications are not exactly compact.
+What kind of program do you want to make easier to write?
+What does the language set out to make easier to write?  For example, it is easy to write web services with PHP, although the language does not set out to make language processing programs easier to write. Similarly, as the name suggests ML-type languages (Meta-languages) like Haskell and OCaml make writing programming languages much easier, but when compared to PHP, see very little use in writing web services.
+
+
+Note 8:
+More precisely, we should say “was until the 5th release in 1998”. In 1998 it was 50 pages long, but grew to 187 as the minimalistic approach was scrapped. Even then, it is still compact when compared to C++, which has over 1300 pages.
+
+
+In addition to languages that make it easy for a single person to implement complex algorithms into programs, there are others too. Some of these focus on making it easier for large groups to co-operatively create something. Others make it easy to implement experimental and throwaway code. The "right" design depends entirely upon the aims of the person using the language and the reason there are many different kinds of designs in the first place is simply because people have all sorts of different goals. It is not helpful to compare a language designed for maximum execution speed like C++to a language designed to make code easy to read like Python only to conclude that C++ is hard to read and Python is slow.
+
+2.3 Summary
+===========
+
+We have seen that programming languages were invented by people to make things easier and we have also seen how what they make easier depends on the language in question.
+
+Languages are tools, and whether a language is suited to your help you achieve your aims directly effects your productivity. It doesn’t matter whether a certain language is popular at the time, or what other people have done with said language. All that matters is your ability to get the results you want. Don’t be led astray by what others say; find the right tool for you.
+
