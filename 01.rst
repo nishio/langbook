@@ -31,7 +31,9 @@ Doesn’t it make you want to know what is it like in other languages? Well I ce
 Booleans in Java
 ----------------
 
-I researched a number of languages but only have space to talk about one here. Java has Boolean types and conditional expressions must therefore be types. Because 0 is an integer type and not a Boolean type, writing 0 as a conditional expression results in a compiler error. What I am trying to say here, is that there are languages where 0 is true, languages where 0 is false and languages where 0 is neither false nor true.
+I researched a number of languages but only have space to talk about one here. Java has Boolean types and conditional expressions must therefore be types. Because 0 is an integer type and not a Boolean type, writing 0 as a conditional expression results in a compiler error.
+
+There are 3 kind of languages: languages where 0 is true, languages where 0 is false and languages where 0 is neither false nor true.
 
 1.2 Learning from the past
 ==========================
@@ -45,7 +47,9 @@ Note 2:
 There is no "right" language to learn
 -------------------------------------
 
-There are profound lessons we can learn from looking back at the past and one of these is the meaninglessness of the question: "I want to learn a programming language but don't know which one I should learn?" Lots of people will give you advice like "you can't go wrong with learning major language X" or "you ought to learn Y now because it is going to be important in the future." However, nobody knows what is going to happen in the future, and to illustrate this I would like to introduce a case study about a language we'll call "X" for the example. (Some of the key words are omitted).
+"I want to learn a programming language. Which one I should learn?" Histrory tell us that this question is meaningless.
+
+Lots of people will give you advice like "you can't go wrong with learning major language X" or "you ought to learn Y now because it is going to be important in the future." However, nobody knows what is going to happen in the future, and to illustrate this I would like to introduce a case study about a language we'll call "X" for the example. (Some of the key words are omitted).
 
 Other languages have limited scope of use because of the considerably high amount of technical know-how required to use them effectively. In comparison to this, "X" has been gaining attention as a tool that managers and business owners can use to obtain the information they need with minimal time investment. Over the last 2 or 3 years, the number of companies in the US and across the globe using X has been increasing rapidly and at company Y (a company instrumental in the development of the language) the number of people using it has increased by over 50%. In the American operations of company Y, 16% of employees (over 25000 people) use or encounter X in some form over the course of their daily working lives.
 
