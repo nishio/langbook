@@ -67,10 +67,7 @@ Note 2: This does not mean that FORTRAN was the first programming language. It i
 
 Note 3: Programming Languages – Concepts and Constructs, Ravi Sethi, Pearson Education Ltd. 2002
 
-Note 4: “Much of my work has come from being lazy” http://www.msnbc.msn.com/id/17704662/
-
-Note 5:  "I didn't like writing programs l started work on a programming system to make it easier to write programs"  http://www.msnbc.msn.com/id/17704662/
-
+Note 4: source of John Backus's quote: http://www.msnbc.msn.com/id/17704662/ another source: http://en.wikiquote.org/wiki/John_Backus
 
 
 
