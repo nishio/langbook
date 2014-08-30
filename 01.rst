@@ -8,10 +8,10 @@ Naturally, we just want to learn the most important and useful parts - but how i
 1.1 Learning by comparison
 ==========================
 
-Let’s assume that you are learning programming language X and are confused about what are and are not key points. Certain characteristics we can learn from become clear when we compare this language X to another; language Y. What is different between the two languages? Which characteristics are common to both language X and language Y? Which local rules are specific to only language X?
-The rules change depending on the language
+Let’s assume that you are learning programming language X and are confused about what are and are not key points. Certain characteristics become clearer when we compare language X to another language Y. What is different between the two languages? Which characteristics are common to both languages? Which local rules are specific and apply just to language X?
+The rules change depending on the language.
 
-By comparing multiple languages, we see that different languages have different rules. Programming textbooks are full of rules, but they are not absolute or universal. They are really no more than a set of context specific suggestions to make things easier and even though the textbook of a given language may refer to them as "rules" all this means is that they are the rules of that particular language. 
+By comparing multiple languages, we see that different languages have different rules. Programming textbooks are full of rules, but they are neither absolute nor universal. They are really no more than a set of context specific suggestions to make things easier and even though the textbook of a given language may refer to them as "rules" all this means is that they are the rules of that particular language. 
 Booleans in C and Ruby
 
 Let's look at Booleans, (what is true and what is false) as an example of how drastically rules can differ between languages. A person who has studied C might tell you something like "0 is false, and anything else apart from that is true" and if they had not studied any other languages apart from C they may even instinctively think that 0 means false in all programming languages. However, that same person would be in for a shock when they started learning Ruby, a language where 0 is true.
@@ -26,12 +26,14 @@ This "shock" is actually the perfect opportunity to rethink any misconceptions l
 Note 1:
 
 
-Doesn’t this make you want to know what it is like in other languages? Well it certainly did me; it gave me a clear goal - to find out how Booleans work in other languages - and when we have a clear goal to work towards we learn more efficiently. 
+Doesn’t it make you want to know what is it like in other languages? Well I certainly did; it gave me a clear goal - to find out how Booleans work in other languages - and when we have a clear goal we learn more efficiently. 
 
 Booleans in Java
 ----------------
 
-I researched a number of languages but only have space to talk about one here. Java has Boolean types and conditional expressions must therefore be types. Because 0 is an integer type and not a Boolean type, writing 0 as a conditional expression results in a compiler error. What I am trying to say here, is that there are languages where 0 is true, languages where 0 is false and languages where 0 is neither false nor true.
+I researched a number of languages but only have space to talk about one here. Java has Boolean types and conditional expressions must therefore be types. Because 0 is an integer type and not a Boolean type, writing 0 as a conditional expression results in a compiler error.
+
+There are 3 kind of languages: languages where 0 is true, languages where 0 is false and languages where 0 is neither false nor true.
 
 1.2 Learning from the past
 ==========================
@@ -45,9 +47,11 @@ Note 2:
 There is no "right" language to learn
 -------------------------------------
 
-There are profound lessons we can learn from looking back at the past and one of these is the meaninglessness of the question: "I want to learn a programming language but don't know which one I should learn?" Lots of people will give you advice like "you can't go wrong with learning major language X" or "you ought to learn Y now because it is going to be important in the future." However, nobody knows what is going to happen in the future, and to illustrate this I would like to introduce a case study about a language we'll call "X" for the example. (Some of the key words are omitted).
+"I want to learn a programming language. Which one I should learn?" Histrory tell us that this question is meaningless.
 
-Other languages have limited scope of use because of the considerably high amount of technical knowhow required to use them effectively. In comparison to this, "X" has been gaining attention as a tool that managers and business owners can use to obtain the information they need with minimal time investment. Over the last 2 or 3 years, the number of companies in the US and across the globe using X has been increasing rapidly and at company Y (a company instrumental in the development of the language) the number of people using it has increased by over 50%. In the American operations of company Y, 16% of employees (over 25000 people) use or encounter X in some form over the course of their daily working lives.
+Lots of people will give you advice like "you can't go wrong with learning major language X" or "you ought to learn Y now because it is going to be important in the future." However, nobody knows what is going to happen in the future, and to illustrate this I would like to introduce a case study about a language we'll call "X" for the example. (Some of the key words are omitted).
+
+Other languages have limited scope of use because of the considerably high amount of technical know-how required to use them effectively. In comparison to this, "X" has been gaining attention as a tool that managers and business owners can use to obtain the information they need with minimal time investment. Over the last 2 or 3 years, the number of companies in the US and across the globe using X has been increasing rapidly and at company Y (a company instrumental in the development of the language) the number of people using it has increased by over 50%. In the American operations of company Y, 16% of employees (over 25000 people) use or encounter X in some form over the course of their daily working lives.
 
 (ed.) Language X is considered more and more beneficial as a method for firms to increase productivity.
 This "X" sounds like a useful language doesn't it? What would you do if someone advised you "it would be a good idea to learn X"? 
@@ -60,8 +64,9 @@ Even now, there are still a large number of languages that are said to be "good 
 1.3 Summary
 ===========
 
-This book does not teach language specific how-tos, it aims to teach the reader universal concepts applicable to all languages and two of the techniques we use to do this are: "learning by comparison" and "learning from the past". Learning by comparison means learning programming so while comparing multiple languages. In doing this, we can learn what is different and what is shared between them. Learning from the past means learning how languages have changed, and what kinds of problems prompted this change. In doing this, we can understand why the various functions of a given language exist.
+This book does not teach language specific how-tos, it aims to teach the reader universal concepts applicable to all languages and two of the techniques we use to do this are: "learning by comparison" and "learning from the past". Learning by comparison means learning programming by comparing multiple languages. In doing this, we can learn what is different and what is shared between them. Learning from the past means learning how languages have changed, and what kinds of problems prompted this change. In doing this, we can understand why the various functions of a given language exist.
 
-Note 4: I carried out a search on the recruitment site Dice.com(http://www.dice.com/) to find out just how minor of a language APL is and now, at the time of writing in 2013 there were just 5 results .  To put this in to context, a search for Java yielded 16,295 results and a search for Python 3,502.
+Note 4: I carried out a search on the recruitment site Dice.com(http://www.dice.com/) to find out just how minor of a language APL is and now, at the time of writing in 2013 there were just 5 results.  To put this in to context, a search for Java yielded 16,295 results and a search for Python 3,502.
+
 Note 5: 
 
