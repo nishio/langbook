@@ -11,4 +11,4 @@ acknowledgment
 
 Alexander Hart, thank you for your great commitment on translation.
 
-Camilet Cooray, Rodrigo Senra, thank you for reviewing.
+Camilet Cooray, Rodrigo Senra, thank you for reviewing drafts.
